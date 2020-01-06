@@ -22,7 +22,7 @@ io.on('connection', function (socket) {
 
 server.listen(port, () => {
     console.log(`app listening on port ${port}`)
-})
+});
 
 // console.log(__dirname + '/../public');
 // console.log(publicPath);
