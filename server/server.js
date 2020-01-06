@@ -10,7 +10,7 @@ let app = express();
 let server = http.createServer(app)
 let io = socketIO(server);
 
-app.use(express.static(publicPath))
+app.use(express.static(publicPath));
 
 io.on('connection', function (socket) {
     console.log('New user connected');
