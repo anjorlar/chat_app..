@@ -6,7 +6,7 @@ socket.on('connect', () => {
     socket.emit('CreateMessage', {
         to: 'wu@example.com',
         text: 'WHAT IS GOING ON'
-    })
+    });
 })
 
 socket.on('disconnect', () => {
