@@ -19,7 +19,7 @@ io.on('connection', (socket) => {
         from: 'juan@example.com',
         text: 'WHAT IS GOING ON',
         createdAt: 123
-    })
+    });
 
     socket.on('CreateMessage', (message) => {
         console.log('createMessage', message)
