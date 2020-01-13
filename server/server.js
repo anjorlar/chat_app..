@@ -37,7 +37,7 @@ io.on('connection', (socket) => {
         //     text: message.text,
         //     createdAt: new Date().getTime()
         // })
-    })
+    });
 
     socket.on('disconnect', () => {
         console.log('User was disconnected')
