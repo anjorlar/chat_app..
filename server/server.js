@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
         from: 'Admin',
         text: 'New User',
         createdAt: new Date().getTime()
-    })
+    });
     socket.on('createMessage', (message) => {
         console.log('createMessage', message)
         io.emit('newMessage', {
