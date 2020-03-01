@@ -18,7 +18,7 @@ io.on('connection', (socket) => {
         from: 'Admin',
         text: 'Welcome to app',
         createdAt: new Date().getTime()
-    })
+    });
 
     socket.broadcast.emit('newMessage', {
         from: 'Admin',
