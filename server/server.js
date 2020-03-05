@@ -45,7 +45,7 @@ io.on('connection', (socket) => {
 });
 
 server.listen(port, () => {
-    console.log(`app listening on port ${port}`)
+    console.log(`app listening on port ${port}`);
 });
 
 // console.log(__dirname + '/../public');
