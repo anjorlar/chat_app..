@@ -12,7 +12,7 @@
     "node": "10.16.3"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adebayo Anjola",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
